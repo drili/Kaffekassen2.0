@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+* {
+    font-family: 'Roboto', Helvetica, Arial;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700 !important;
+}
+
+
+/* ====================== NAVIGATION STYLES ====================== */
+.navbar {
+    background: black;
+    border-radius: 0;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+a.navbar-brand.navbar-mobile {
+    display: none;
+}
+
+.logo-header {
+    height: 40px;
+    width: auto;
+}
+
+.basket-icon img, .user-icon img {
+    height: 25px;
+    width: auto;
+}
+
+.site-navbar {
+    width: 100%;
+}
+
+ul.navbar-nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-toggler-icon {
+    background-image: url(../images/nav-icon.svg) !important;
+}
+
+.navbar-toggler:focus {
+    outline: none !important;
+}
+
+
+
+
+
+/* ====================== SUPPORT-INFO STYLES ====================== */
+.support-info p {
+    margin-top: 20px;
+}
+
+.support-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+/* ====================== KAFFETYPER STYLES ====================== */
+.kaffetyper {
+    background: #F4DEC4;
+    padding: 10px;
+}
+
+.choose-title {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-right: 2px solid white;
+}
+
+.kaffetyper h4 {
+    color: #8E4238;
+    margin-bottom: 0;
+}
+
+.type-list li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.type-list li p {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.type-list a {
+    color: #8E4238;
+}
+
+.type-list a:hover {
+    text-decoration: none;
+    color: #8E4238;
+}
+
+ul.type-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 0;
+    align-items: flex-end;
+}
+
+
+
+
+/* ====================== PRODUCT STYLES ====================== */
+.product-list {
+    margin: 100px 0;
+}
+
+
+
+
+
+
+
+/* ====================== FOOTER STYLES ====================== */
+footer {
+    background: black;
+    padding: 20px 0;
+}
+
+.footer-logo {
+    height: 30px;
+    width: auto;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-align-right {
+    text-align: right;
+}
+
+.footer-align-right p {
+    color: white;
+    margin: 5px 0;
+}
+
+.footer-align-center {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-align-center img {
+    padding: 0 5px;
+}
+
+.footer-align-left a {
+    display: block;
+}
+
+.footer-align-left {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .support-img {
+        display: none;
+    }
+
+    .support-info {
+        margin: 40px 0;
+    }
+
+    .choose-title {
+        border-right: none;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 15px;
+        display: block;
+    }
+
+    ul.type-list {
+        display: block;
+        padding: 0;
+    }
+
+    .type-list li {
+        width: 50%;
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .type-list img {
+        height: 40px;
+        width: auto;
+    }
+
+    .footer-align-center, .footer-align-left, .footer-align-right {
+        display: block;
+        text-align: center;
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .logo-header {
+        height: 30px;
+        width: auto;
+    }
+}
+
+footer {
+      margin-top: 100px;
+}
+
+.header-box {
+      margin-bottom: 80px;
+}
