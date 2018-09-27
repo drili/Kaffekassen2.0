@@ -27,7 +27,7 @@
       $from_record_num = ($records_per_page * $page) - $records_per_page; // calculate for the query LIMIT clause
 
       // set page title
-      $page_title="";
+      $page_title=" ";
 ?>
 
 <?php
