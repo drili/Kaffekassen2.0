@@ -27,7 +27,6 @@
 
       else {
             $_SESSION['cart'][$id]=$cart_item;
-
             // redirect to product list and tell the user it was added to cart
             header('Location: products.php?action=added&page=' . $page);
       }

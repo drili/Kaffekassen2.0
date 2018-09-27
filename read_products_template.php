@@ -20,12 +20,12 @@
             extract($row);
 
             // creating box
-            echo "<div class='col-md-4 m-b-20px'>";
+            echo "<div class='filterDiv {$category} col-md-4 m-b-20px' id='{$category}'>";
 
             // product id for javascript access
             echo "<div class='product-id display-none'>{$id}</div>";
 
-            echo "<a href='product.php?id={$id}' class='product-link {$category}' id='{$category}'>";
+            echo "<a href='product.php?id={$id}' class='product-link'>";
             // select and show first product image
             $product_image->product_id=$id;
             $stmt_product_image=$product_image->readFirst();

@@ -166,3 +166,13 @@
 .badge {
       background-color: #e60d0d;
 }
+
+
+/*Filter*/
+.filterDiv {
+      display: none;
+}
+
+.show {
+      display: block;
+}
