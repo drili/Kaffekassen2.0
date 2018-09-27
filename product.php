@@ -101,7 +101,7 @@
             echo "</div>";
 
             echo "<div class='product-detail'>Produkt kategori:</div>";
-            echo "<div class='m-b-10px'>{$product->category_name}</div>";
+            echo "<div class='m-b-10px'>{$product->category}</div>";
 
       echo "</div>";
 
