@@ -1,8 +1,7 @@
-
-
 <?php
-      // start session
-      session_start();
+      // page header html
+      include 'layout_header.php';
+
       // connect to database
       include 'config/database.php';
 
@@ -29,9 +28,6 @@
 
       // set page title
       $page_title="";
-
-      // page header html
-      include 'layout_header.php';
 ?>
 
 <?php
