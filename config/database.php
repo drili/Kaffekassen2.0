@@ -2,10 +2,10 @@
       // used to get mysql database connection
       class Database{
 
-            private $host = "localhost";
-            private $db_name = "shopcartsession1";
-            private $username = "root";
-            private $password = "";
+            private $host = "mysql63.unoeuro.com";
+            private $db_name = "christianbengstrom_dk_db5";
+            private $username = "christianbe_dk";
+            private $password = "y243x6t9";
             public $conn;
 
             // get the database connection
